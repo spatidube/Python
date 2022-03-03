@@ -1,0 +1,14 @@
+print("Welcome to Spati's Escape room")
+'''get user input, space is important'''
+name = input("What is your name? ")
+age =int(input("What is your age? "))
+
+'''make sure correct age'''
+print("Hello", name, "you are", age, "years old")
+
+if age >= 18:
+  print("you can get into the house!")
+elif age >= 14:
+  print("You can play with supervision")
+else: 
+  print("You are not old enough to play, please exit")
